@@ -1,12 +1,12 @@
 var React = require('react');
-var listItem = React.createClass({
+var ListItem = React.createClass({
     render:function(){
         return (
             <li>
-                    <h3>{this.props.ingrediant}</h3>
+                    <h3>{this.props.ingredient}</h3>
               </li>
             );
         }   
 });
 
-module.exports = listItem;
+module.exports = ListItem;

@@ -20448,8 +20448,8 @@ module.exports = List;
 
 },{"./ListItem.jsx":173,"react":171}],173:[function(require,module,exports){
 var React = require('react');
-var listItem = React.createClass({
-    displayName: 'listItem',
+var ListItem = React.createClass({
+    displayName: 'ListItem',
 
     render: function () {
         return React.createElement(
@@ -20458,13 +20458,13 @@ var listItem = React.createClass({
             React.createElement(
                 'h3',
                 null,
-                this.props.ingrediant
+                this.props.ingredient
             )
         );
     }
 });
 
-module.exports = listItem;
+module.exports = ListItem;
 
 },{"react":171}],174:[function(require,module,exports){
 var React = require('react');
